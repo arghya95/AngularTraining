@@ -8,7 +8,8 @@ import { Recipes } from '../recipes.model';
 })
 export class RecipesListComponent implements OnInit {
 recipes: Recipes[] = [
-  new Recipes('A Test Item','This is for Test','http://wdy.h-cdn.co/assets/16/18/980x490/gallery-1462220559-womans-day-best-mexican-recipes-cinco-de-mayo.jpg')
+  new Recipes('A Test Item','This is for Test','http://wdy.h-cdn.co/assets/16/18/980x490/gallery-1462220559-womans-day-best-mexican-recipes-cinco-de-mayo.jpg'),
+  new Recipes('A Test Item','This is for Test','http://wdy.h-cdn.co/assets/16/18/980x490/gallery-1462220559-womans-day-best-mexican-recipes-cinco-de-mayo.jpg')  
 ];
   constructor() { }
 
